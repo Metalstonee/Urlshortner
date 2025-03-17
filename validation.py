@@ -1,6 +1,5 @@
-from pythonping import ping
+
 import re
-url = str(input("enter the url  "))
 def valid(url):
     while True:
         pattern = re.compile(
